@@ -472,7 +472,9 @@ body {
   display: none;
 }
 
-
+.modal-content__list .active{
+  font-weight: bold;
+}
 
 @media (max-width: 991px) {
   .top-block-btn__text,
@@ -602,7 +604,9 @@ body {
   .footer-item:first-child {
     width: 65%;
 }
-  
+.info-block{
+  width: 100%;
+}
 }
 
 @media (max-width: 576px) { 
@@ -639,5 +643,11 @@ align-items: flex-start;
 }
 .team-info__img-wrapper{
   margin-right: 30px;
+}
+.logo__text{
+max-width: 250px;
+}
+.modal-header__title{
+font-size: 1.125rem;
 }
 }
