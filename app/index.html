@@ -13,8 +13,11 @@
         <div class="top-block">
           <div class="container align-items-center justify-content-between">
             <button class="top-block-btn">
+              <svg class="top-block-btn__svg top-block-btn__svg-mobile-show" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#6470B6" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
               <svg
-                class="top-block-btn__svg"
+                class="top-block-btn__svg top-block-btn__svg-mobile-hidden"
                 xmlns="http://www.w3.org/2000/svg"
                 width="15"
                 height="15"
@@ -55,8 +58,11 @@
               src="./img/logo_gp.svg"
               alt="Главная военная прокуратура"
             />
-            <span class="logo__text"> Главная военная прокуратура </span>
+            <a href="#" class="logo__text"> Главная военная прокуратура </a>
           </div>
+          <button class="burger">
+            <img class="burger__img" src="./img/burger.svg" alt="">
+          </button>
           <nav class="nav">
             <ul class="nav__wrapper">
               <li class="nav__item">
@@ -64,6 +70,9 @@
               </li>
               <li class="nav__item">
                 <a class="nav__link" href="#">Деятельность</a>
+              </li>
+              <li class="nav__item nav__item-mobile ">
+                <a class="nav__link" href="#">Документы</a>
               </li>
               <li class="nav__item">
                 <a class="nav__link" href="#">Кадры</a>
@@ -133,26 +142,22 @@
                   <div class="news-topic-item">
                     <h3 class="news-topic-item__title">
                       <a class="news-topic-item__link" href="#"
-                        >По иску военной прокуратуры суд вынес решение о
-                        взыскании с жителя Приморья ущерба, причиненного водным
-                        биологическим ресурсам</a
+                        >В Астраханской области по иску военной прокуратуры судом принято решение о необходимости изменения условий договора о поставке коммунальных ресурсов, нарушающего права граждан</a
                       >
                     </h3>
                     <div class="news-topic-item__info">
-                      <span>24 марта 2023, 15:38</span>
-                      <span>Тихоокеанский флот</span>
+                      <span>24 марта 2023, 15:37</span>
+                      <span>Ракетные войска стратегического назначения</span>
                     </div>
                   </div>
                   <div class="news-topic-item">
                     <h3 class="news-topic-item__title">
                       <a class="news-topic-item__link" href="#"
-                        >По иску военной прокуратуры суд вынес решение о
-                        взыскании с жителя Приморья ущерба, причиненного водным
-                        биологическим ресурсам</a
+                        >В Донецкой Народной Республике вынесен обвинительный приговор в отношении двух военнослужащих Национальной гвардии Украины</a
                       >
                     </h3>
                     <div class="news-topic-item__info">
-                      <span>24 марта 2023, 15:38</span>
+                      <span>23 марта 2023, 16:57</span>
                       <span>Тихоокеанский флот</span>
                     </div>
                   </div>
